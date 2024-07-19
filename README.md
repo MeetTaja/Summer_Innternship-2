@@ -49,7 +49,7 @@ Welcome to my GitHub repository for the Web Development Summer Internship 2024! 
 
 ## 2️⃣ week 2
 
-### *3th June 2024*
+### *3rd June 2024*
 - In the second week, the primary focus was on the development of a personal portfolio website. This involved designing the layout, implementing core features, and ensuring responsive design. Collaboration with the design team and feedback from mentors were integral parts of this process.
 
 
@@ -92,139 +92,95 @@ Welcome to my GitHub repository for the Web Development Summer Internship 2024! 
 
 ## 3️⃣ week 3
 
-### 12th June 2024
-- Online Session: Introduction to AWS DynamoDB, API Gateway, and Lambda Functions
-- This week focused on building a serverless backend using AWS services like DynamoDB, API Gateway, and Lambda Functions. We worked on a project to create CRUD APIs for managing items in a DynamoDB table.
-
-  <img src="https://media.licdn.com/dms/image/D5612AQFMBfd4HnZ0Iw/article-cover_image-shrink_720_1280/0/1699630089018?e=1724284800&v=beta&t=eG1tqVAl1EvKAu9J4LmAqAmFE5uxPQReQJEz88P8xiA" width="550" height="300"/>
-
+### 10th June 2024
+- The third week of the internship was dedicated to developing a landing page. The tasks involved designing the layout, implementing features to enhance user engagement, optimizing for performance, and ensuring the landing page aligns with the marketing goals of the project.
 
 ### Here is the Outline of Week-3:
-1. Create a table in DynamoDB
-2. Write a Lambda Function as a Backend
-3. Configure API Endpoints on API Gateway
-4. Get /items
-5. Put /items
-6. Get /items/{id}
-7. Delete /items/{id}
-8. Configure API Endpoints with Lambda Code
-9. Test Out APIs through Curl and Browser
+
+1. Focus: Development of a landing page.
+2. Activities: Designing layout, implementing features, optimizing performance, aligning with marketing goals.
 
 ## 📝 Day-by-Day Progress
 
-### Day 1: Creating a Table in DynamoDB
+### Day 1: Layout Design
 
-➠ Create a table in DynamoDB
-- Created a new table in Amazon DynamoDB. DynamoDB is a fast and flexible NoSQL database service for all applications that need consistent, single-digit millisecond latency at any scale. I configured the table with a primary key and other necessary attributes to store item data efficiently.
+- Collaborated with the marketing and design teams to finalize the layout and aesthetics of the landing page.
+- Created wireframes and design mockups using tools like Figma or Adobe XD.
+- Iterated on the design based on feedback from stakeholders.
 
-  ### Day 2: Writing Lambda Functions
+  ### Day 2: Development and Implementation
   
-➠ Write a Lambda Function as a Backend
-- Developed a Lambda function to serve as the backend logic for our CRUD operations. AWS Lambda allows you to run code without provisioning or managing servers. The function was written in Python and included logic to interact with DynamoDB for various operations like retrieving, inserting, updating, and deleting items.
+- Developed the landing page using HTML, CSS, and JavaScript.
+- Implemented key sections such as the hero section, features section, testimonials, and call-to-action (CTA) buttons.
+- Ensured the design is responsive and mobile-friendly using CSS media queries and flexible grid layouts
 
-### Day 3: Configuring API Endpoints
+### Day 3: User Engagement Features
 
-➠ Configure API Endpoints on API Gateway
-- Set up API Gateway to expose our Lambda functions as RESTful API endpoints. Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. Configured the endpoints for the various CRUD operations.
+- Added interactive elements such as animations, hover effects, and smooth scrolling to enhance user experience.
+- Integrated a subscription form with basic form validation using JavaScript. 
+- Implemented a modal pop-up for special offers or important announcements.
 
-### Day 4: Implementing CRUD Operations
+### Day 4: Performance Optimization
 
-➠ *Get /items
-- Configured the GET /items endpoint to retrieve all items from the DynamoDB table. This endpoint interacts with the Lambda function to fetch and return the list of items.
+- Optimized images and other assets to reduce load times.
+- Implemented lazy loading for images and other resources to improve performance.
+- Minified CSS and JavaScript files to reduce file sizes and improve load times.
 
-➠ Put /items
-- Set up the PUT /items endpoint to add new items to the DynamoDB table. The Lambda function processes the incoming request and inserts the new item into the table.
+### Day 5: Testing,Debugging,Version Control and Collaboration
 
-➠ Get /items/{id}
-- Implemented the GET /items/{id} endpoint to retrieve a specific item by its ID. The Lambda function uses the ID parameter to query DynamoDB and return the requested item.
-
-➠ Delete /items/{id}
-- Configured the DELETE /items/{id} endpoint to remove an item from the DynamoDB table based on its ID. The Lambda function handles the deletion process and ensures the item is removed.
-
-➠ Configure API Endpoints with Lambda Code
-- Linked the API Gateway endpoints with the corresponding Lambda functions. This integration allows API Gateway to invoke the correct Lambda function for each API request, ensuring the backend logic is executed properly.
-
-➠ Test Out APIs through Curl and Browser
-- Tested the configured APIs using curl commands and a web browser to ensure they work as expected. Verified that the CRUD operations (Create, Read, Update, Delete) perform correctly and that the APIs return the appropriate responses for different scenarios.
-
+- Conducted cross-browser testing to ensure the landing page works seamlessly on different browsers (e.g., Chrome, Firefox, Safari, Edge).
+- Performed testing on various devices to ensure a consistent experience across desktops, tablets, and smartphones.
+- Debugged and fixed issues related to layout, functionality, and performance.
+- Regularly committed code changes to the project repository using Git.
+- Participated in code reviews with senior developers and incorporated their feedback.
+- Collaborated with the marketing team to ensure the landing page aligns with the overall campaign goals.
 
 ## 4️⃣ week 4
 
-### *21st June 2024*
-- *Online Session*: Introduction to AWS Bedrock, S3, and Knowledge Base Integration
-- This week focused on building a knowledge base using AWS Bedrock, creating a vector store for efficient data retrieval, and interacting with the knowledge base using an agent.
-
-  <img src="https://community.aws/_next/image?url=https%3A%2F%2Fassets.community.aws%2Fa%2F2Z6yg51zfyrwr7WzyFJ4zNsUukb.png%3FimgSize%3D2772x1102&w=3840&q=75" width="550" height="300"/>
+### *17th June 2024*
+- The fourth week of the internship was dedicated to further development and refinement of the Budget Manager web application. The tasks involved enhancing existing features, implementing new functionalities, improving the user interface, and performing rigorous testing to ensure a seamless user experience.
 
 ### *Here is the Outline of Week-4:*
-1. Create a Bucket
-2. Upload my Resume
-3. Create Knowledge Base in BedRock
-4. Link S3 Bucket Object (Resume) with this Knowledge Base
-5. Create Vector Store using Embeddings and Data Source
-6. Test Knowledge Base using Generate Responses
-7. Test Knowledge Base without using Generate Responses
-8. Create an Agent
-9. Connect it with Knowledge Base
-10. Interact with your Resume
+1. Focus: Further development and refinement of the Budget Manager web application.
+2. Activities: Enhancing existing features, implementing new functionalities, improving the user interface, and performing rigorous testing.
 
 ## 📝 Day-by-Day Progress
 
-### Day 1: Setting Up the S3 Bucket and Uploading Resume
+### Day 1: Feature Enhancements
 
-➠ Create a Bucket
-- Created a new S3 bucket for storing objects. Amazon S3 is a scalable object storage service that allows for the storage and retrieval of any amount of data at any time.
+- Improved the user interface for the expense tracking module, making it more intuitive and user-friendly.
+- Enhanced the budget overview dashboard to provide a more comprehensive view of the user's financial status.
+- Added new filtering and sorting options for transactions to allow users to better manage their expenses.
 
-➠ Upload my Resume
-- Uploaded my resume to the S3 bucket. This step is crucial for linking the resume to the knowledge base in Bedrock.
+### Day 2: New Functionalities
 
-### Day 2: Creating and Linking Knowledge Base in Bedrock
+- Implemented a recurring transactions feature, allowing users to set up and manage recurring expenses and income.
+- Added support for multiple currencies, enabling users to track expenses in different currencies with real-time exchange rate updates.
+- Developed a category-wise expense analysis tool to help users identify spending patterns and make informed financial decisions.
 
-➠ Create Knowledge Base in BedRock
-- Created a knowledge base in AWS Bedrock. Bedrock is used for building intelligent applications with comprehensive knowledge management and natural language understanding capabilities.
+### Day 3: User Interface Improvements
 
-➠ Link S3 Bucket Object (Resume) with this Knowledge Base
-- Linked the uploaded resume from the S3 bucket to the knowledge base. This allows Bedrock to use the resume as a data source for generating responses.
+- Redesigned the settings page to make it easier for users to customize their experience and manage account settings.
+- Improved the mobile responsiveness of the application, ensuring a consistent experience across different devices and screen sizes.
+- Added tooltips and help icons to provide users with additional information and guidance on various features.
 
-### Day 3: Building and Testing the Vector Store
+### Day 4: Testing and Debugging
 
-➠ Create Vector Store using Embeddings and Data Source
-- Created a vector store using embeddings to enable efficient data retrieval. This involved transforming the resume data into vector embeddings that Bedrock can use for quick search and retrieval.
+- Conducted unit testing and integration testing to ensure all new features and enhancements work as expected.
+- Identified and fixed bugs related to the user interface, data synchronization, and performance issues.
+- Performed user acceptance testing (UAT) with a group of beta testers to gather feedback and identify areas for improvement.
 
-➠est Knowledge Base using Generate Responses
-- Tested the knowledge base by generating responses from the linked resume data. This helped verify that the knowledge base correctly understands and retrieves information from the resume.
+### Day 5: Documentation and Collaboration
 
-➠ Test Knowledge Base without using Generate Responses
-- Conducted tests on the knowledge base without using the generate response feature to ensure it can handle direct queries and return accurate information.
-
-### Day 4: Creating and Connecting an Agent
-
-➠Create an Agent
-- Created an agent in AWS Bedrock. Agents in Bedrock are responsible for interacting with users and providing responses based on the knowledge base.
-
-➠Connect it with Knowledge Base
-- Linked the created agent with the knowledge base to enable it to access and retrieve information from the resume stored in S3.
-
-### Day 5: Interacting with the Resume
-
-➠Interact with your Resume
-- Interacted with the resume through the agent. This involved querying the agent to retrieve specific information from the resume, ensuring the setup was functional and effective.
-
-## Problems faced after few Days of competion of Internship
-
-- After completion of Internship on 30 June I came across the mails that my billing charges are getting than we are expecting.
-- Then I contact Amit Aurora sir and he helped me and we come to know that my bedrock,KMS,Agent Services are still on.
-- then we conatact to AWS support and wrote them that we are student and we were exploring the servies and went dee,it was not intentionally
-- then we go reply for few days and i reply them back everyday like they were mailing me to xyz servies are still on and terminate them
-- iused to terminate them accordingly and sending them attachment for proof and on 15 july the billing things was sorted out
-- all thnaks to AWS and Amit sir for Guiding me
-
+- Updated the project documentation to reflect the new features and changes made during the week.
+- Collaborated with the design team to ensure the user interface aligns with the overall design guidelines.
+- Participated in daily stand-up meetings to discuss progress, challenges, and next steps with the development team.
 
 ## 🤝 Connect with Me
 
-- LinkedIn: [[https://www.linkedin.com](https://www.linkedin.com/in/viken-hadavani-27b6412b3?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bc%2BtFz8i0SqaVmf395szcFw%3D%3D)]
+- LinkedIn: [[https://www.linkedin.com](https://www.linkedin.com/in/meet-taja-320394230)]
 
-- Email: [vikenhadavani@gmail.com]
+- Email: [tajameet301@gmail.com]
 
 
 Thank you for visiting my project! Feel free to reach out if you have any questions or feedback. ✨
