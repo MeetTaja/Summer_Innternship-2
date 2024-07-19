@@ -78,29 +78,17 @@ Welcome to my GitHub repository for the Web Development Summer Internship 2024! 
 - Used CSS media queries to adapt the layout for different screen sizes.
 - Tested the website on various devices and browsers to ensure a seamless user experience.
    
-### In Day 4-5 i was supposed to explore and learn new services in brief by my own
+### Day 4: Interactive Elements
 
-### Day 4: Discovering AWS Athena's Capabilities
+- Added interactive elements such as animations, hover effects, and modal pop-ups using CSS and JavaScript.
+- Implemented a carousel for showcasing projects in the portfolio section.
+- Incorporated a contact form with basic form validation.
 
-➠ Explored the versatility of SQL queries in AWS Athena
-  - Investigated the range of SQL queries possible in AWS Athena, understanding how it interacts with data stored in S3 and the types of analysis that can be performed.
-    
-➠ Examined data partitioning strategies*:
-  - Studied various data partitioning strategies and their impact on query performance in Athena, gaining insights into how partitioning contributes to cost savings.
-    
-➠ Learned about AWS Glue Data Catalog integration
-  - Explored how AWS Glue Data Catalog serves as a central metadata repository and how it integrates with Athena to make S3 data easily searchable and queryable.
+### Day 5: Version Control and Collaboration
 
-### Day 5: Exploring Data Integration and Orchestration
-
-➠ Investigated AWS Glue's ETL capabilities
-  - Researched AWS Glue's ETL features, understanding how it automates the extraction, transformation, and loading of data for analytics.
-    
-➠ Familiarized with AWS Step Functions' orchestration
-  - Learned about AWS Step Functions and its ability to coordinate multiple AWS services into serverless workflows, grasping the basics of service orchestration.
-    
-➠ Reviewed error handling in Step Functions workflows*:
-  - Reviewed best practices for implementing error handling in Step Functions workflows, appreciating the importance of resilience in service orchestration.
+- Used Git for version control to manage changes and collaborate with team members.
+- Regularly committed changes and pushed to the project repository.
+- Participated in code reviews and incorporated feedback to improve code quality.
 
 ## 3️⃣ week 3
 
